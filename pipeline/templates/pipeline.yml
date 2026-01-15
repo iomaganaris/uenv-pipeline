@@ -4,7 +4,7 @@ stages:
 
 .base-build:
   stage: build
-  timeout: 8h
+  timeout: 12h
   needs:
     pipeline: $PARENT_PIPELINE_ID
     job: pipeline-configure
